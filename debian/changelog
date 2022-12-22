@@ -1,0 +1,54 @@
+node-widest-line (3.1.0-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Repository, Repository-Browse
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Update standards version to 4.6.0, no changes needed
+  * Fix GitHub tags regex
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Fri, 12 Nov 2021 15:07:18 +0100
+
+node-widest-line (3.1.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Use pkg-js-tools auto install
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * New upstream version 3.1.0
+  * Update copyright
+  * Enable upstream test using tape instead of ava
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 10 Mar 2020 10:25:14 +0100
+
+node-widest-line (1.2.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+
+ -- suman <suman@protonmail.com>  Thu, 09 Nov 2017 18:53:33 +0000
+
+node-widest-line (1.0.0-1) experimental; urgency=low
+
+  * Initial release (Closes: #852782)
+
+ -- Tushar Agey <agey.tushar3@gmail.com>  Fri, 27 Jan 2017 09:31:39 +0000

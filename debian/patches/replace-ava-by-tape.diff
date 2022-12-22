@@ -1,0 +1,19 @@
+Description: replace ava by tape
+Author: Xavier Guimard <yadd@debian.org>
+Forwarded: not-needed
+Last-Update: 2020-03-10
+
+--- a/test.js
++++ b/test.js
+@@ -1,8 +1,9 @@
+-import test from 'ava';
+-import widestLine from '.';
++const test = require('tape');
++const widestLine = require('.');
+ 
+ test('main', t => {
+ 	t.is(widestLine('a'), 1);
+ 	t.is(widestLine('a\nbe'), 2);
+ 	t.is(widestLine('古\n\u001B[1m@\u001B[22m'), 2);
++	t.end();
+ });
